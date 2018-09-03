@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelOpg1", "DelOpg1\DelOpg1.csproj", "{B406EBED-0AB9-491E-A110-8D48E3D42296}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelOpg2", "DelOpg2\DelOpg2.csproj", "{415EFEB5-88E3-43EA-AB06-E9AD3E489CA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B406EBED-0AB9-491E-A110-8D48E3D42296}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B406EBED-0AB9-491E-A110-8D48E3D42296}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B406EBED-0AB9-491E-A110-8D48E3D42296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{415EFEB5-88E3-43EA-AB06-E9AD3E489CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415EFEB5-88E3-43EA-AB06-E9AD3E489CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415EFEB5-88E3-43EA-AB06-E9AD3E489CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415EFEB5-88E3-43EA-AB06-E9AD3E489CA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
