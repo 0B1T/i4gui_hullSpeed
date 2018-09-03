@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +21,18 @@ namespace DelOpg1
     /// </summary>
     public partial class MainWindow : Window
     {
+        Sailboat boat = new Sailboat();
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void calculateFullSpeedBtn_Click(object sender, RoutedEventArgs e)
+        {
+            boat.Length = double.Parse(lengthTxtBox.Text);
+
+            hullSpeedTxtBlock.Text = boat.Hullspeed().ToString("F2");
         }
     }
 }
